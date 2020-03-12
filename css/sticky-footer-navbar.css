@@ -1,0 +1,374 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 300px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 300px;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 0px 15px 0px;
+}
+.distancia_menu{
+    padding-top: 150px !important;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+h2 {
+    font-size:22px; 
+    font-weight: bold;
+}
+p {
+    
+    line-height: 180%;
+    font-size: 18px;
+    color: #000;
+}
+p.p_home {
+    margin-top: 30px;
+}
+
+.texto_home {
+    background-color: white;
+    font-size: 48px;
+    margin-top: 200px;
+    padding: 30px;
+    max-width: 520px;
+    opacity: 0.6;
+    
+}
+
+.img_home {
+    background-image: url("../img/bg_home.jpg");
+    background-position: center;
+    height: 600px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+img.logo {
+    width: 82px;
+    float:left;
+        margin-left: 10px;
+}
+span.logo{
+    margin-top: 25px;
+    display:inline-block;
+    font-size:24px;
+    margin-left: 10px;
+    color:black;
+} 
+
+footer img.logo{
+    float:none;
+    margin-top: 40px;
+}
+footer ul li a, footer ul li a:hover{
+  text-decoration: none;  
+  line-height: 35px;
+  color: black;
+}
+.footer ul li{
+    list-style: none;
+    
+}
+
+.navbar-default {
+    background-color: white;
+    height: 100px;
+}
+.navbar-default .navbar-nav {
+    margin-top: 25px;
+    float: right;
+}
+.navbar-default .navbar-collapse,.navbar-default .navbar-form  {
+    border:none;
+}
+
+/* para smartphone*/
+
+.navbar-header .navbar-toggle{
+    margin-top: 30px;
+}
+
+
+footer {
+    margin-top: 30px;
+ 
+    
+}
+
+footer .row{
+    margin-top: 100px;
+   padding: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid rgb(204,204,204); 
+    border-bottom: 1px solid rgb(204,204,204); 
+}
+footer .divisao{
+    border-left: 1px solid rgb(204,204,204);
+}
+.footer_telefone{
+    background-color: rgb(250,250,250);
+    border:1px solid rgb(205,205,205);
+    color:rgb(197,197,197);
+    font-size:18px;
+    padding:12px;
+    margin-top:40px;
+}
+
+.footer_telefone div{
+    width:300px;
+    margin: auto;
+}
+.footer_telefone span{
+    color:rgb(70,70,70);
+    font-size:32px;
+}
+
+
+h1{
+    font-size:48px;
+    text-align:center;
+    font-weight: bold;
+}
+.contato_destaque h3{
+    color: rgb(84,84,84);
+    font-weight: bold;
+}
+
+.contato_destaque p {
+    font-size:30px
+}
+.contato_horario, .contato_horario h3 {
+    font-size: 24px;
+}
+.contato_horario img{
+    margin-bottom: 100px;
+    margin-top: -40px;
+    
+}
+.contato_horario h3{
+    font-weight: bold;
+    color: black;
+}
+.contato_horario p{
+    color: rgb(120,120,120);
+}
+
+
+/*contato part2*/
+
+.container_form_contato{
+    font-size: 24px;
+   
+}
+.container_form_contato textarea{
+    width: 100%;
+    height: 300px;
+    margin-top:20px;
+    margin-bottom: 15px;
+      
+}
+.container_form_contato textarea, .container_form_contato input[type=text],
+.container_form_contato input[type=email]
+{
+    background-color: rgb(246,246,246);
+    padding:20px;
+    border:1px solid rgb(220,220,220);
+    color:rgb(180,180,180); 
+}
+.container_form_contato input[type=email]{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container_form_contato input[type=text],
+.container_form_contato input[type=email]{ 
+
+width:270px;
+
+}
+.container_form_contato input[type=submit]{
+    color: white;
+    background-color: rgb(229,181,83);
+    border: none;
+    padding: 20px 35px;
+}
+
+.texto{
+    color: rgb(84,84,84);
+}
+
+.imag_consultoria{
+    
+    padding: 40px;
+}
+.imag_consultoria h3{
+    font-size:24px;
+    text-align: center;
+     color: rgb(84,84,84) !important;
+}
+.img_wpp{
+    padding-left: 50px;
+}
+/*parceiros*/
+
+.img_parceiro img{
+    width:95%;
+    margin-top: 25px;
+}
+.container .logo_comercial{
+    margin-top: 15px;
+    width:100%;
+    height:360px
+            
+}
+.container .logo_residencial{
+      margin-top: 15px;
+    width:100%;
+}
+
+.container .logo_pub{
+    
+          margin-top: 15px;
+    width:100% ;
+    height: 360px
+    
+}
+    
+.container .realizacao{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container .linkin{
+    margin-left: 50px;
+}
+
+
+
+
+/*para celular*/
+@media (max-width:768px){
+    .navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:hover{
+        background-color: white;
+    }
+    .contato_destaque p {
+        font-size: 19px;
+    }
+
+.container_form_contato input[type=text],
+.container_form_contato input[type=email]{ 
+
+    width:100%;
+
+}
+.container_form_contato input[type=email]{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+   .img_parceiro img{
+    width: 222px;
+    margin-top: 25px;
+    
+    margin-left:10px;
+        
+   
+}
+}
+
+/*tablete*/
+@media (min-width: 768px) and (max-width:992px){
+    .nav>li>a{
+        padding: 6px;
+        font-size: 12px;
+        margin-top:10px;
+    }
+    body {
+  /* Margin bottom by footer height */
+  margin-bottom: 600px;
+}
+    .footer{
+        height: 600px !importante;
+    }
+    .contato_destaque p {
+        font-size: 25px;
+    }
+    .container_form_contato input[type=text],
+.container_form_contato input[type=email]{ 
+
+width:222px;
+
+}
+    .img_parceiro img{
+    width: 222px;
+    margin-top: 25px;
+    float:right;
+    margin-left:10px;
+        
+   
+}
+
+
+}
+/*desktop medio*/
+
+@media (min-width:992px) and (max-width:1200px){
+    
+.container_form_contato input[type=text],
+.container_form_contato input[type=email]{ 
+
+    width:215px;
+
+}
+    .imag_consultoria{
+        width:1000px;
+    }
+     .img_parceiro img{
+    width: 222px;
+    margin-top: 25px;
+    float:right;
+    margin-left:10px;
+        
+   
+}
+}  
+
+
+
+
+
+
+
+
+
